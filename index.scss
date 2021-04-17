@@ -5,7 +5,42 @@
 	font-family: sans-serif;
 	list-style-type: none;
 }
-
+button {
+	box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
+	padding: 5px 20px;
+	color: white;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+	background-color: #e257e2;
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 0.3s ease;
+	margin-bottom: 15px;
+	outline: none;
+	&:hover {
+		transform: scale(0.97);
+	}
+}
+input {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	height: 40px;
+	width: 100%;
+	display: flex;
+	margin-bottom: 15px;
+	font-weight: 600;
+	color: #828282;
+	box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
+	&:focus {
+		outline: none;
+	}
+	&::placeholder {
+		color: #828282;
+		font-weight: 600;
+	}
+}
 .container {
 	display: flex;
 	justify-content: center;
@@ -27,61 +62,6 @@
 				color: white;
 				padding-bottom: 20px;
 				font-size: 24px;
-			}
-			input {
-				border: none;
-				border-radius: 5px;
-				padding: 10px;
-				height: 40px;
-				width: 100%;
-				display: flex;
-				margin-bottom: 15px;
-				font-weight: 600;
-				color: #828282;
-				box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-				&:focus {
-					outline: none;
-				}
-				&::placeholder {
-					color: #828282;
-					font-weight: 600;
-				}
-			}
-			.add-item {
-				box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-				padding: 5px 20px;
-				color: white;
-				font-weight: 700;
-				border: none;
-				border-radius: 5px;
-				background-color: #e257e2;
-				cursor: pointer;
-				font-size: 18px;
-				transition: all 0.3s ease;
-				margin-bottom: 15px;
-				outline: none;
-				&:hover {
-					transform: scale(0.97);
-				}
-			}
-		}
-		input {
-			border: none;
-			border-radius: 5px;
-			padding: 10px;
-			height: 40px;
-			width: 100%;
-			display: flex;
-			margin-bottom: 10px;
-			font-weight: 600;
-			color: #828282;
-			box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-			&:focus {
-				outline: none;
-			}
-			&::placeholder {
-				color: #828282;
-				font-weight: 600;
 			}
 		}
 		.list-section {
@@ -105,7 +85,6 @@
 					left: 0;
 					right: 2px;
 					height: 2px;
-					// width: 100%;
 					background-color: rgba($color: #828282, $alpha: 0.4);
 				}
 				p {
@@ -116,23 +95,6 @@
 				.delete {
 					cursor: pointer;
 				}
-			}
-		}
-		.clear-btn {
-			box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-			padding: 5px 20px;
-			color: white;
-			font-weight: 700;
-			border: none;
-			border-radius: 5px;
-			background-color: #e257e2;
-			cursor: pointer;
-			font-size: 18px;
-			transition: all 0.3s ease;
-			margin: 15px auto 0;
-			outline: none;
-			&:hover {
-				transform: scale(0.97);
 			}
 		}
 	}
