@@ -16,7 +16,7 @@ button {
 	cursor: pointer;
 	font-size: 18px;
 	transition: all 0.3s ease;
-	margin-bottom: 15px;
+	margin: 15px 0;
 	outline: none;
 	&:hover {
 		transform: scale(0.97);
@@ -29,7 +29,6 @@ input {
 	height: 40px;
 	width: 100%;
 	display: flex;
-	margin-bottom: 15px;
 	font-weight: 600;
 	color: #828282;
 	box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
@@ -72,6 +71,7 @@ input {
 			box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
 			height: 300px;
 			overflow-y: auto;
+			margin-top: 15px;
 			.list-item {
 				height: 35px;
 				display: flex;

@@ -21,7 +21,7 @@ button {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin-bottom: 15px;
+  margin: 15px 0;
   outline: none;
 }
 
@@ -40,7 +40,6 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 15px;
   font-weight: 600;
   color: #828282;
   -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
@@ -130,6 +129,7 @@ input::placeholder {
           box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
   height: 300px;
   overflow-y: auto;
+  margin-top: 15px;
 }
 
 .container .todo-list .list-section .list-item {
