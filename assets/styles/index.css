@@ -7,6 +7,70 @@
   list-style-type: none;
 }
 
+button {
+  -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
+          box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
+  padding: 5px 20px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  background-color: #e257e2;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+button:hover {
+  -webkit-transform: scale(0.97);
+      -ms-transform: scale(0.97);
+          transform: scale(0.97);
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #828282;
+  -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
+          box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #828282;
+  font-weight: 600;
+}
+
+input:-ms-input-placeholder {
+  color: #828282;
+  font-weight: 600;
+}
+
+input::-ms-input-placeholder {
+  color: #828282;
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: #828282;
+  font-weight: 600;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,110 +121,6 @@
   font-size: 24px;
 }
 
-.container .todo-list .add-section input {
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  height: 40px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 15px;
-  font-weight: 600;
-  color: #828282;
-  -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-          box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-}
-
-.container .todo-list .add-section input:focus {
-  outline: none;
-}
-
-.container .todo-list .add-section input::-webkit-input-placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list .add-section input:-ms-input-placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list .add-section input::-ms-input-placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list .add-section input::placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list .add-section .add-item {
-  -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-          box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-  padding: 5px 20px;
-  color: white;
-  font-weight: 700;
-  border: none;
-  border-radius: 5px;
-  background-color: #e257e2;
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  margin-bottom: 15px;
-  outline: none;
-}
-
-.container .todo-list .add-section .add-item:hover {
-  -webkit-transform: scale(0.97);
-      -ms-transform: scale(0.97);
-          transform: scale(0.97);
-}
-
-.container .todo-list input {
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  height: 40px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 10px;
-  font-weight: 600;
-  color: #828282;
-  -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-          box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-}
-
-.container .todo-list input:focus {
-  outline: none;
-}
-
-.container .todo-list input::-webkit-input-placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list input:-ms-input-placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list input::-ms-input-placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
-.container .todo-list input::placeholder {
-  color: #828282;
-  font-weight: 600;
-}
-
 .container .todo-list .list-section {
   width: 100%;
   padding: 15px;
@@ -204,28 +164,4 @@
 
 .container .todo-list .list-section .list-item .delete {
   cursor: pointer;
-}
-
-.container .todo-list .clear-btn {
-  -webkit-box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-          box-shadow: 1px 1px 22px 1px rgba(8, 8, 8, 0.26);
-  padding: 5px 20px;
-  color: white;
-  font-weight: 700;
-  border: none;
-  border-radius: 5px;
-  background-color: #e257e2;
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  margin: 15px auto 0;
-  outline: none;
-}
-
-.container .todo-list .clear-btn:hover {
-  -webkit-transform: scale(0.97);
-      -ms-transform: scale(0.97);
-          transform: scale(0.97);
 }
